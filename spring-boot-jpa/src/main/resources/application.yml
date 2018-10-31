@@ -1,0 +1,23 @@
+server:
+  port: 8002
+
+logging:
+  level:
+    com:
+      chy: debug
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3307/test?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 10
+    minIdle: 10
+    maxActive: 100
+    maxWait: 50000
+
