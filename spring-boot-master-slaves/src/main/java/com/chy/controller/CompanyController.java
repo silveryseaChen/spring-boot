@@ -20,7 +20,9 @@ public class CompanyController {
 
     @RequestMapping("/list")
     public List<Company> list(Company company){
-        return companyService.query(company);
+        List<Company> list = companyService.query(company);
+        list.addAll(companyService.query1(company));
+        return list;
     }
 
 

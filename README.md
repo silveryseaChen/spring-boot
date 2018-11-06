@@ -21,3 +21,7 @@
 # spring-boot-mybatis-multi-datasource
 
   spring boot + mybatis多数据源，基于mybatis不同目录实现。
+  
+# spring-boot-jpa-multi-datasource
+
+  spring boot + jpa多数据源，基于jpa不同目录实现。  

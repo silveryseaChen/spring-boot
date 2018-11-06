@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
  * Created by chy on 2018/4/9.
  */
 @Aspect
-@Order(1)//保证该AOP在@Transactional之前执行
 @Component
 @Slf4j
 public class DynamicDataSourceAspect {
