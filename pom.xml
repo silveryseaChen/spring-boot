@@ -15,6 +15,7 @@
         <module>spring-boot-mybatis-multi-datasource</module>
         <module>spring-boot-master-slaves</module>
         <module>spring-boot-jpa-multi-datasource</module>
+        <module>spring-boot-session-redis</module>
     </modules>
 
     <properties>

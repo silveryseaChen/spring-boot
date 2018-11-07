@@ -25,3 +25,7 @@
 # spring-boot-jpa-multi-datasource
 
   spring boot + jpa多数据源，基于jpa不同目录实现。  
+  
+# spring-boot-spring-session
+
+  spring-session session 自动存入缓存（redis）    
