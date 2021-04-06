@@ -19,6 +19,14 @@ public class IndexController {
     @Autowired
     private UserService userService;
 
+    @RequestMapping(value = "/select", method = RequestMethod.GET)
+    @ResponseBody
+    public List<User> select(User user){
+
+        return userService.select(user);
+
+    }
+
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     @ResponseBody
     public List<User> list(User user){

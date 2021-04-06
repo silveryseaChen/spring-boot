@@ -29,3 +29,13 @@
 # spring-boot-spring-session
 
   spring-session session 自动存入缓存（redis）    
+  
+# spring-boot-actuator
+
+  spring-boot actuator 提供应用参数获取的endpoint  
+  
+  `问题: build,git info 未正常展示`
+
+# spring-boot-admin
+
+  spring-boot admin 图形页面展示actuator信息

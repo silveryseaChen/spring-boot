@@ -11,8 +11,18 @@
     id, name, password, status
   </sql>
 
-  <select id="diyXml" resultType="java.lang.String">
+  <select id="diyXml" resultType="string">
     select 'xml'
+    union all
+    select 'xml1'
+    union all
+    select 'xml2'
+    union all
+    select 'xml3'
+    union all
+    select 'xml4'
+    union all
+    select 'xml5'
   </select>
 
 </mapper>
